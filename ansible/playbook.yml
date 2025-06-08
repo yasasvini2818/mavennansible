@@ -9,7 +9,7 @@
         dest: "/opt/tomcat/webapps/mavennansible.war"
         remote_src: no
         
-    - name: Restart tomcat
+    - name: Restart Tomcat
       systemd:
         name: tomcat
         state: restarted
